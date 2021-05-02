@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <title>Form</title>
+  </head>
+  <body class="forr">
+
+  
+   <section>
+     <div class="container mt-5">
+      <h1 class="text-center bg">Overview</h1>
+       <div class="row">
+         <div class="col-lg-12">
+           
+            <div class="formm_w">
+              
+              <form action="#" method="">
+                 <div class="mb-3">
+                   <label for="u_email" class="form-label">Email address</label>
+                   <input type="email" class="form-control u_email" id="u_email" name="u_email" placeholder="Enter your email" required="">
+
+
+                 <div class="mb-3">
+                   <label for="u_pass" class="form-label">Password</label>
+                   <input type="password" class="form-control u_pass" id="u_pass" required="" >
+                 </div>
+
+
+                 <div class="mb-3 form-check">
+                   <input type="checkbox" class="form-check-input u_check" id="u_check" required="">
+                   <label class="form-check-label" for="u_check">Check me out</label>
+                 </div>
+
+
+                 <button type="submit" class="btn btn-primary">Submit</button>
+
+               </form>
+
+            </div>
+
+         </div>
+       </div>
+     </div>
+   </section>
+    
+    
+  
+    <section>
+      <div class="container mt-5">
+        <h1 class="text-center bg">Form controls</h1>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="mb-3">
+              <label for="formFile" class="form-label">Default file input example</label>
+              <input class="form-control" type="file" id="formFile">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container mt-5">
+        <h1 class="text-center bg mb-3">Select</h1>
+        <div class="row">
+          <div class="col-lg-12">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>            
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="container mt-5">
+        <h1 class="text-center bg">Checks and radios</h1>
+        <div class="row">
+          <div class="col-lg-4">
+            
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Default checkbox
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                  Checked checkbox
+                </label>
+              </div>
+
+          </div>
+
+         <div class="col-lg-4">
+           <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Default radio
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Default checked radio
+                </label>
+              </div>              
+         </div>
+
+         <div class="col-lg-4">
+           <div class="form-check">
+               <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+               <label class="form-check-label" for="flexRadioDisabled">
+                 Disabled radio
+               </label>
+             </div>
+             <div class="form-check">
+               <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioCheckedDisabled" checked disabled>
+               <label class="form-check-label" for="flexRadioCheckedDisabled">
+                 Disabled checked radio
+               </label>
+             </div>
+         </div>
+          
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <section>
+      <div class="container mt-5">
+        <h1 class="text-center bg">Range</h1>
+        <div class="row">
+          <div class="col-lg-6">
+           
+           <label for="customRange1" class="form-label">Overview</label>
+            <input type="range" class="form-range" id="customRange1">
+
+          </div>
+
+          <div class="col-lg-6">
+            <label for="customRange2" class="form-label">Min and max</label>
+            <input type="range" class="form-range" min="0" max="5" id="customRange2">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section>
+      <div class="container mt-5">
+        <h1 class="text-center bg">Floating labels</h1>
+        <div class="row">
+          <div class="col-lg-12">
+            
+            <div class="form-floating mb-3">
+             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+             <label for="floatingInput">Email address</label>
+           </div>
+
+           <div class="form-floating">
+             <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+             <label for="floatingPassword">Password</label>
+           </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section>
+      <div class="container mt-5">
+        <h1 class="text-center bg">Layout</h1>
+        <div class="row">
+          <div class="col-lg-12">
+            
+             <form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </div>
+</form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <div class="container mt-5">
+        <h1 class="text-center bg">Validation</h1>
+        <div class="row">
+          <div class="col-lg-12">
+            
+            <form class="row g-3">
+  <div class="col-md-4">
+    <label for="validationServer01" class="form-label">First name</label>
+    <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationServer02" class="form-label">Last name</label>
+    <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationServerUsername" class="form-label">Username</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="inputGroupPrepend3">@</span>
+      <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+      <div id="validationServerUsernameFeedback" class="invalid-feedback">
+        Please choose a username.
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationServer03" class="form-label">City</label>
+    <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+    <div id="validationServer03Feedback" class="invalid-feedback">
+      Please provide a valid city.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationServer04" class="form-label">State</label>
+    <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+      <option selected disabled value="">Choose...</option>
+      <option>...</option>
+    </select>
+    <div id="validationServer04Feedback" class="invalid-feedback">
+      Please select a valid state.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationServer05" class="form-label">Zip</label>
+    <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+    <div id="validationServer05Feedback" class="invalid-feedback">
+      Please provide a valid zip.
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+      <label class="form-check-label" for="invalidCheck3">
+        Agree to terms and conditions
+      </label>
+      <div id="invalidCheck3Feedback" class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    
+
+    
+
+    <!--  JS links -->
+  
+    <script src="js/popper.min.js" ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
